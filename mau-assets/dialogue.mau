@@ -1,0 +1,281 @@
+BEGIN_DIALOGUE "relic_info"
+    BEGIN_ENTRY
+        "dialogue_tutorial.png"
+        "RELIC - GEAR UPGRADE"
+        "Your maximum health and armor have been increased by 5%."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "intro"
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Demonic invasion in progress. Facility lockdown in effect."
+        " "
+        " "
+        "[Press ENTER to continue...]"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Hey, what about me?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Detention subject: Persephone T."
+        " "
+        "Offense: Vandalizing C-building gargoyles using a makeshift toilet paper launching weapon."        
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Punishment: Incarceration in detention cell."
+        " "
+        "Sentence duration: 3 days. Permanent record."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Okay, so I decorated a few gargoyles with shitwipe."
+        " "
+        "I get that. But right now, if you don't let me out, I'm dead."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Temporary access-rights granted to student Persephone T."
+        " "
+        "Reason: Life-threatening situation."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Well, that was easier than I thought."
+        " "
+        "I just need to find something to protect myself with."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_tutorial.png"
+        "TUTORIAL"
+        "Use the ARROW KEYS to move."
+        " "
+        "You can also use the WASD keys to move and mouse to look around."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "toilet_pickup"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Hello again, old friend..."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_tutorial.png"
+        "TUTORIAL"
+        "TOILET PAPER SHOTGUN is effective against enemies at close range. It requires TOILET PAPER ROLLS to operate. Press CTRL to fire."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "gossip_toilet"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Can't help but wonder... Who leaves toilet paper rolls scattered around?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Query unclear."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "It's just awfully convenient. That's all."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "gossip_demon_1"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "What was that thing?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Accessing demonic species database..."
+        " "
+        "Specimen matches description of Daemonis Felinae."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "So... Demon Pussy?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "In a manner of speaking, yes."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_comp"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Looks like an ancient compiler textbook, dating back to early 2nd millenium. The content seems incomprehensible and I can't make anything out but gibberish."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_diglog"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "An old digital circuitry workbook. There's an inscription: \"For Ameli\"."
+        " "
+        "I wonder who she was."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "door_key"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "This door won't budge. Computer, can you override?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Unable to override; the lock is protected by AES-4096 hardware key only carried by Blue clearance personnel."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "I guess I'll need to find the key, then."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "plasma_pickup"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Now this is more like it. \"Manufactured in New Karlovac, plasma-powered cells provide high rate of fire, penetrate armor, blah, blah.\""
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Must have been dropped by one of the security guards. Neat."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_tutorial.png"
+        "TUTORIAL"
+        "You can switch between weapons by using the number keys: [1] for shotgun, [2] for rifle, and so on."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "rocket_pickup"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Looks like Christmas came early. This is gonna wreak some havoc."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_fer2"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Some kind of an ancient student collaboration network. I remember reading about a guy who attempted something similar in 4th millenium. He was shot."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_ss"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Looks like a trailer of a vintage form of entertainment. A guy riding on a motorcycle through a forest shoots some headless screaming guy. Nice."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_pepe"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "A cardboard box containing a vast collection of images depicting a poorly drawn anthropomorphic frog. I don't know what to make of this."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_anthepro"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "It's just a piece of paper with handwriting: \"Ocu i ja bit jedan od NPC-eva, Stane?   -anthepro\""
+        " "
+        "This is beyond me."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "gossip_rest"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Hold on."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "What is it?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "I'm hauling twice my weight in weapons and ammo, just give me a minute."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Would you like some music while you rest?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Is that sarcasm?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "I was not designed for sarcastic response."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Of course you weren't."
+        " "
+        "How far is the exit?"
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "The nearest exit is located nearby. However, I'm detecting a large number of demonic signatures in the rooms ahead."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "gossip_ammo"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "This huge, conveniently placed pile of ammo is not scaring me at all."
+        " "
+        "Not at all."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_computer.png"
+        "FACULTY COMPUTER"
+        "Elaborate."
+    END_ENTRY
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "Just... forget it."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_tears"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "A small bottle filled with foul-smelling transparent liquid. There's a faded label: \"FRESHMAN TEARS\"."
+    END_ENTRY
+END_DIALOGUE
+BEGIN_DIALOGUE "relic_booklets"
+    BEGIN_ENTRY
+        "dialogue_persephone.png"
+        "PERSEPHONE"
+        "A dozen of paperback booklets dating back to 2nd millenium. They seem poorly written, almost as if they were meant for machines, not humans."
+    END_ENTRY
+END_DIALOGUE

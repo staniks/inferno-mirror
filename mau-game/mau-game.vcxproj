@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release With Assembly Source|Win32">
+      <Configuration>Release With Assembly Source</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release With Assembly Source|x64">
+      <Configuration>Release With Assembly Source</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{73564476-88AF-470B-AD6F-256D0BF117DD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>maugame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)build\bin\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)build\bin\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)build\bin\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)build\bin\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)build\bin\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)build\bin\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_PRAGMA_ONCE_SUPPORT</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)mau-engine;$(SolutionDir)\mau-dependencies\SDL2\include;$(SolutionDir)\mau-dependencies\SDL2_image\include;$(SolutionDir)\mau-dependencies\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\mau-dependencies\SDL2\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_image\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_mixer\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)mau-dependencies\SDL2\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_mixer\lib\$(Platform)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_HAS_ITERATOR_DEBUGGING=0;%(PreprocessorDefinitions);_PRAGMA_ONCE_SUPPORT</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)mau-engine;$(SolutionDir)\mau-dependencies\SDL2\include;$(SolutionDir)\mau-dependencies\SDL2_image\include;$(SolutionDir)\mau-dependencies\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\mau-dependencies\SDL2\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_image\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_mixer\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)mau-dependencies\SDL2\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_mixer\lib\$(Platform)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_PRAGMA_ONCE_SUPPORT</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)mau-engine;$(SolutionDir)\mau-dependencies\SDL2\include;$(SolutionDir)\mau-dependencies\SDL2_image\include;$(SolutionDir)\mau-dependencies\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\mau-dependencies\SDL2\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_image\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_mixer\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)mau-dependencies\SDL2\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_mixer\lib\$(Platform)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_PRAGMA_ONCE_SUPPORT</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)mau-engine;$(SolutionDir)\mau-dependencies\SDL2\include;$(SolutionDir)\mau-dependencies\SDL2_image\include;$(SolutionDir)\mau-dependencies\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\mau-dependencies\SDL2\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_image\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_mixer\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)mau-dependencies\SDL2\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_mixer\lib\$(Platform)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_PRAGMA_ONCE_SUPPORT</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)mau-engine;$(SolutionDir)\mau-dependencies\SDL2\include;$(SolutionDir)\mau-dependencies\SDL2_image\include;$(SolutionDir)\mau-dependencies\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\mau-dependencies\SDL2\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_image\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_mixer\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)mau-dependencies\SDL2\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_mixer\lib\$(Platform)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release With Assembly Source|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_PRAGMA_ONCE_SUPPORT</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)mau-engine;$(SolutionDir)\mau-dependencies\SDL2\include;$(SolutionDir)\mau-dependencies\SDL2_image\include;$(SolutionDir)\mau-dependencies\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\mau-dependencies\SDL2\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_image\lib\$(Platform);$(SolutionDir)\mau-dependencies\SDL2_mixer\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)mau-dependencies\SDL2\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)"
+copy /Y "$(SolutionDir)mau-dependencies\SDL2_mixer\lib\$(Platform)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Mau\IO\Resources\BitmapFont.h" />
+    <ClInclude Include="Mau\IO\Resources\Sound.h" />
+    <ClInclude Include="Mau\Logic\Monster.h" />
+    <ClInclude Include="Mau\Logic\Monsters\Monsters.h" />
+    <ClInclude Include="Mau\Logic\Particle.h" />
+    <ClInclude Include="Mau\Logic\Pickup.h" />
+    <ClInclude Include="Mau\Logic\Pickups\PickupAmmo.h" />
+    <ClInclude Include="Mau\Logic\Pickups\PickupExit.h" />
+    <ClInclude Include="Mau\Logic\Pickups\PickupHealth.h" />
+    <ClInclude Include="Mau\Logic\Pickups\PickupKeycard.h" />
+    <ClInclude Include="Mau\Logic\Pickups\PickupRelic.h" />
+    <ClInclude Include="Mau\Logic\Pickups\PickupWeapons.h" />
+    <ClInclude Include="Mau\Logic\Projectile.h" />
+    <ClInclude Include="Mau\Logic\Projectiles\Projectiles.h" />
+    <ClInclude Include="Mau\Logic\Weapon.h" />
+    <ClInclude Include="Mau\States\Gameplay\Resources\DialogueRepository.h" />
+    <ClInclude Include="Mau\IO\Resources\LexData.h" />
+    <ClInclude Include="Mau\IO\Resources\TextData.h" />
+    <ClInclude Include="Mau\Logic\Entity.h" />
+    <ClInclude Include="Mau\Logic\Level.h" />
+    <ClInclude Include="Mau\Logic\Player.h" />
+    <ClInclude Include="Mau\Math\Rect.h" />
+    <ClInclude Include="Mau\States\Gameplay\GameplayState.h" />
+    <ClInclude Include="Mau\States\Gameplay\Substates\DialogueState.h" />
+    <ClInclude Include="Mau\States\Gameplay\Substates\QuitPromptState.h" />
+    <ClInclude Include="Mau\States\MainMenu\MainMenuState.h" />
+    <ClInclude Include="Mau\Base\Engine.h" />
+    <ClInclude Include="Mau\Base\RenderDevice.h" />
+    <ClInclude Include="Mau\Base\State.h" />
+    <ClInclude Include="Mau\Base\Types.h" />
+    <ClInclude Include="Mau\IO\Log.h" />
+    <ClInclude Include="Mau\IO\Resource.h" />
+    <ClInclude Include="Mau\IO\ResourceCache.h" />
+    <ClInclude Include="Mau\IO\Resources\Texture.h" />
+    <ClInclude Include="Mau\Math\Color.h" />
+    <ClInclude Include="Mau\Math\Math.h" />
+    <ClInclude Include="Mau\Math\Vec2.h" />
+    <ClInclude Include="Mau\Mau.h" />
+    <ClInclude Include="Mau\SDL\SDLSystems.h" />
+    <ClInclude Include="Mau\States\Story\StoryState.h" />
+    <ClInclude Include="Mau\States\Story\Substates\AboutState.h" />
+    <ClInclude Include="Mau\States\Story\Substates\DeadState.h" />
+    <ClInclude Include="Mau\States\Story\Substates\FinishState.h" />
+    <ClInclude Include="Mau\States\Story\Substates\IntroState.h" />
+    <ClInclude Include="Mau\States\Story\Substates\PreludeState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mau\IO\Resources\BitmapFont.cpp" />
+    <ClCompile Include="Mau\IO\Resources\Sound.cpp" />
+    <ClCompile Include="Mau\Logic\Monster.cpp" />
+    <ClCompile Include="Mau\Logic\Monsters\Monsters.cpp" />
+    <ClCompile Include="Mau\Logic\Particle.cpp" />
+    <ClCompile Include="Mau\Logic\Pickup.cpp" />
+    <ClCompile Include="Mau\Logic\Pickups\PickupAmmo.cpp" />
+    <ClCompile Include="Mau\Logic\Pickups\PickupExit.cpp" />
+    <ClCompile Include="Mau\Logic\Pickups\PickupHealth.cpp" />
+    <ClCompile Include="Mau\Logic\Pickups\PickupKeycard.cpp" />
+    <ClCompile Include="Mau\Logic\Pickups\PickupRelic.cpp" />
+    <ClCompile Include="Mau\Logic\Pickups\PickupWeapons.cpp" />
+    <ClCompile Include="Mau\Logic\Projectile.cpp" />
+    <ClCompile Include="Mau\Logic\Projectiles\Projectiles.cpp" />
+    <ClCompile Include="Mau\Logic\Weapon.cpp" />
+    <ClCompile Include="Mau\States\Gameplay\Resources\DialogueRepository.cpp" />
+    <ClCompile Include="Mau\IO\Resources\LexData.cpp" />
+    <ClCompile Include="Mau\IO\Resources\TextData.cpp" />
+    <ClCompile Include="Mau\Logic\Entity.cpp" />
+    <ClCompile Include="Mau\Logic\Level.cpp" />
+    <ClCompile Include="Mau\Logic\Player.cpp" />
+    <ClCompile Include="Mau\Math\Rect.cpp" />
+    <ClCompile Include="Mau\States\Gameplay\Substates\DialogueState.cpp" />
+    <ClCompile Include="Mau\States\Gameplay\Substates\QuitPromptState.cpp" />
+    <ClCompile Include="Mau\States\MainMenu\MainMenuState.cpp" />
+    <ClCompile Include="mau-game.cpp" />
+    <ClCompile Include="Mau\States\Gameplay\GameplayState.cpp" />
+    <ClCompile Include="Mau\Base\Engine.cpp" />
+    <ClCompile Include="Mau\Base\RenderDevice.cpp" />
+    <ClCompile Include="Mau\Base\State.cpp" />
+    <ClCompile Include="Mau\IO\Log.cpp" />
+    <ClCompile Include="Mau\IO\Resource.cpp" />
+    <ClCompile Include="Mau\IO\Resources\Texture.cpp" />
+    <ClCompile Include="Mau\Math\Math.cpp" />
+    <ClCompile Include="Mau\SDL\SDLSystems.cpp" />
+    <ClCompile Include="Mau\States\Story\StoryState.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
