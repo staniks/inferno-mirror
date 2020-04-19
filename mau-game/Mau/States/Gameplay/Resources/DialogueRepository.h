@@ -1,4 +1,4 @@
-﻿#ifndef MAU_DIALOGUE_REPOSITORY_H
+#ifndef MAU_DIALOGUE_REPOSITORY_H
 #define MAU_DIALOGUE_REPOSITORY_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT
@@ -13,7 +13,7 @@ namespace Mau
 {
     struct Dialogue;
     struct DialogueEntry;
-        
+
     class DialogueRepository
     {
     public:
@@ -24,7 +24,7 @@ namespace Mau
 
     private:
         std::unordered_map<std::string, std::unique_ptr<Dialogue>> mDialogueMap;
-        
+
         static void ProcessLine(DialogueEntry& pEntry, std::string pLine);
     };
 }
