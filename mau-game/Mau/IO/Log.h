@@ -1,4 +1,4 @@
-﻿#ifndef MAU_LOG_H
+#ifndef MAU_LOG_H
 #define MAU_LOG_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

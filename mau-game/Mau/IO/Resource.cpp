@@ -1,4 +1,4 @@
-﻿#include "Mau/Base/Types.h"
+#include "Mau/Base/Types.h"
 #include "Mau/IO/Resource.h"
 #include "Mau/IO/Log.h"
 

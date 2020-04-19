@@ -1,10 +1,11 @@
-﻿#ifndef MAU_RESOURCE_H
+#ifndef MAU_RESOURCE_H
 #define MAU_RESOURCE_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT
 #pragma once
 #endif
 
+#include <string>
 #include <vector>
 
 namespace Mau

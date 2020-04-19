@@ -1,4 +1,4 @@
-﻿#ifndef MAU_BITMAP_FONT_H
+#ifndef MAU_BITMAP_FONT_H
 #define MAU_BITMAP_FONT_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 #include "Mau/IO/Log.h"
 
