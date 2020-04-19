@@ -1,4 +1,4 @@
-﻿#ifndef MAU_WEAPON_H
+#ifndef MAU_WEAPON_H
 #define MAU_WEAPON_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

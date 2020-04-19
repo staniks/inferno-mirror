@@ -1,4 +1,4 @@
-﻿#ifndef MAU_PROJECTILE_H
+#ifndef MAU_PROJECTILE_H
 #define MAU_PROJECTILE_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

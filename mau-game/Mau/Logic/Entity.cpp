@@ -1,4 +1,4 @@
-﻿#include <algorithm>
+#include <algorithm>
 
 #include "Mau/Logic/Entity.h"
 #include "Mau/Logic/Level.h"
