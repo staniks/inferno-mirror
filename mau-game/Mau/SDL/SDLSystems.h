@@ -1,4 +1,4 @@
-﻿#ifndef MAU_SDL_H
+#ifndef MAU_SDL_H
 #define MAU_SDL_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

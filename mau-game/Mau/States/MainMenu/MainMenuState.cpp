@@ -1,4 +1,5 @@
-﻿#include "Mau/States/MainMenu/MainMenuState.h"
+#include "Mau/States/Gameplay/Substates/DialogueState.h"
+#include "Mau/States/MainMenu/MainMenuState.h"
 #include "Mau/States/Story/Substates/AboutState.h"
 #include "Mau/States/Story/Substates/PreludeState.h"
 

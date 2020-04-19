@@ -1,4 +1,4 @@
-﻿#ifndef MAU_PICKUP_H
+#ifndef MAU_PICKUP_H
 #define MAU_PICKUP_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

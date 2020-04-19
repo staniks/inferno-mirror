@@ -1,4 +1,4 @@
-﻿#ifndef MAU_SOUND_H
+#ifndef MAU_SOUND_H
 #define MAU_SOUND_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

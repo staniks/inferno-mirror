@@ -1,4 +1,4 @@
-﻿#include <algorithm>
+#include <algorithm>
 
 #include "Mau/Base/Engine.h"
 #include "Mau/Base/State.h"

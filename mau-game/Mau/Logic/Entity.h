@@ -1,4 +1,4 @@
-﻿#ifndef MAU_ENTITY_H
+#ifndef MAU_ENTITY_H
 #define MAU_ENTITY_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

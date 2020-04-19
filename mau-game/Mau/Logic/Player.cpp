@@ -1,4 +1,4 @@
-﻿#include "Player.h"
+#include "Player.h"
 #include "Mau/States/Gameplay/GameplayState.h"
 #include "Projectile.h"
 

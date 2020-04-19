@@ -1,4 +1,4 @@
-﻿#ifndef MAU_RECT_H
+#ifndef MAU_RECT_H
 #define MAU_RECT_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

@@ -1,4 +1,4 @@
-﻿#ifndef MAU_H
+#ifndef MAU_H
 #define MAU_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

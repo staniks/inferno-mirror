@@ -1,4 +1,4 @@
-﻿#include "Pickup.h"
+#include "Pickup.h"
 #include "Mau/IO/Log.h"
 
 namespace Mau

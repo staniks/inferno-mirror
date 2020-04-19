@@ -1,4 +1,4 @@
-﻿#include "Mau/Math/Rect.h"
+#include "Mau/Math/Rect.h"
 
 namespace Mau
 {

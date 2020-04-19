@@ -1,4 +1,4 @@
-﻿#ifndef MAU_COLOR_H
+#ifndef MAU_COLOR_H
 #define MAU_COLOR_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

@@ -1,4 +1,4 @@
-﻿#ifndef MAU_TEXTDATA_H
+#ifndef MAU_TEXTDATA_H
 #define MAU_TEXTDATA_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

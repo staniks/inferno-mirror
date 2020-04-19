@@ -1,4 +1,4 @@
-﻿#ifndef INFERNO_STATE_GAMEPLAY_H
+#ifndef INFERNO_STATE_GAMEPLAY_H
 #define INFERNO_STATE_GAMEPLAY_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT
@@ -46,7 +46,7 @@ namespace Mau
         std::vector<std::unique_ptr<GameplaySubstate>> mSubstateStack;
         Level mLevel;
 
-        // Raycasting        
+        // Raycasting
         std::vector<Color> mHorizontalLookupTable; // precomputed colors for floor and ceiling
         const float mFogReductionFactor = 4.0f;
 
@@ -60,7 +60,7 @@ namespace Mau
 
         // Messages
         std::string mCurrentMessage{""};
-        float mCurrentMessageTimer{0.0f};    
+        float mCurrentMessageTimer{0.0f};
 
         // Dialogue
         std::vector<std::pair<std::string, float>> mDelayedDialogue;

@@ -1,4 +1,4 @@
-﻿#include "BitmapFont.h"
+#include "BitmapFont.h"
 #include "Mau/IO/ResourceCache.h"
 
 namespace Mau

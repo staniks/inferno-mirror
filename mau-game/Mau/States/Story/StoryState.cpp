@@ -1,4 +1,4 @@
-﻿#include "Mau/States/MainMenu/MainMenuState.h"
+#include "Mau/States/MainMenu/MainMenuState.h"
 #include "Mau/States/Story/StoryState.h"
 #include "Mau/Math/Math.h"
 

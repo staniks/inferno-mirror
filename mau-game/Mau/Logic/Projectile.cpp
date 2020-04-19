@@ -1,4 +1,4 @@
-﻿#include "Mau/States/Gameplay/GameplayState.h"
+#include "Mau/States/Gameplay/GameplayState.h"
 #include "Monster.h"
 #include "Projectile.h"
 #include "Player.h"

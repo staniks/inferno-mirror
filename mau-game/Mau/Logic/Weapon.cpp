@@ -1,4 +1,4 @@
-﻿#include "Weapon.h"
+#include "Weapon.h"
 #include "Mau/Base/Engine.h"
 #include "Projectile.h"
 #include "Player.h"

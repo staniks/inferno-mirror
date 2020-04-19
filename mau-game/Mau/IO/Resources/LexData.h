@@ -1,4 +1,4 @@
-﻿#ifndef MAU_LEXDATA_H
+#ifndef MAU_LEXDATA_H
 #define MAU_LEXDATA_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

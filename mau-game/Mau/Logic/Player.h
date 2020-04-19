@@ -1,4 +1,4 @@
-﻿#ifndef MAU_PLAYER_H
+#ifndef MAU_PLAYER_H
 #define MAU_PLAYER_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

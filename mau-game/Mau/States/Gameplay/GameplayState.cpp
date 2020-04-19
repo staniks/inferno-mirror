@@ -1,10 +1,16 @@
-﻿#include "Mau/Logic/Player.h"
+#include <cstdio>
+
+#include "Mau/Logic/Player.h"
 #include "Mau/States/Gameplay/GameplayState.h"
 #include "Mau/States/Gameplay/Substates/DialogueState.h"
 #include "Mau/States/Gameplay/Substates/QuitPromptState.h"
 #include "Mau/States/Story/Substates/DeadState.h"
 
 //#define DISABLE_DIALOGUE
+
+#ifdef USE_SPRINTF_S
+#define sprintf sprintf_s
+#endif
 
 namespace Mau
 {
@@ -17,7 +23,7 @@ namespace Mau
         mGuiKeyBlue(pEngine.TextureCache.GetResource("gui_key_blue.png")),
         mGuiKeyYellow(pEngine.TextureCache.GetResource("gui_key_yellow.png"))
     {
-        InitializeHorizontalLookupTables();        
+        InitializeHorizontalLookupTables();
     }
 
     void GameplayState::HandleEvent(SDL_Event* pEvent)
@@ -117,7 +123,7 @@ namespace Mau
             {
                 player->SwitchWeapon(2);
             }
-            
+
             player->Rotate(mEngine.MouseDeltaX / 256.0f); // todo: get rid of magic number
 
             if (desiredVelocity.Length() > 0)
@@ -127,7 +133,7 @@ namespace Mau
             }
 
             // todo: get rid of magic numbers:
-            float speed = player->GetVelocity().Length() / (1.0f / 300.0f);  
+            float speed = player->GetVelocity().Length() / (1.0f / 300.0f);
             mCurrentWeaponBob = std::remainder(mCurrentWeaponBob + pDeltaTime * speed / 1500.0f, DoublePI);
 
             mLevel.Update(pDeltaTime);
@@ -159,7 +165,7 @@ namespace Mau
             mSubstateStack.back()->Update(pDeltaTime);
         }
 
-        
+
     }
 
     void GameplayState::Render(float pDeltaTime)
@@ -230,14 +236,14 @@ namespace Mau
         char buffer[] = "0000";
         if (currentWeapon)
         {
-            sprintf_s(buffer, "%04d", currentWeapon->GetAmmo());
+            sprintf(buffer, "%04d", currentWeapon->GetAmmo());
         }
         renderDevice->RenderString(font, {62, 174}, buffer);
 
-        sprintf_s(buffer, "%03d%%", player->GetHealth());
+        sprintf(buffer, "%03d%%", player->GetHealth());
         renderDevice->RenderString(font, {107, 174}, buffer);
 
-        sprintf_s(buffer, "%03d%%", player->GetArmor());
+        sprintf(buffer, "%03d%%", player->GetArmor());
         renderDevice->RenderString(font, {182, 174}, buffer);
 
         // Render message
@@ -465,7 +471,7 @@ namespace Mau
             }
         }
 
-        // Render visible entities sorted back to front 
+        // Render visible entities sorted back to front
         for (Entity* entity : sortedEntities)
         {
             if (entity == player)

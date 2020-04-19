@@ -1,4 +1,4 @@
-﻿#ifndef MAU_VEC2_H
+#ifndef MAU_VEC2_H
 #define MAU_VEC2_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

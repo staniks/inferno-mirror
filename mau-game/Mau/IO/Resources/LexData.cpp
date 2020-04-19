@@ -1,4 +1,4 @@
-﻿#include <cctype>
+#include <cctype>
 #include <string>
 
 #include "LexData.h"
