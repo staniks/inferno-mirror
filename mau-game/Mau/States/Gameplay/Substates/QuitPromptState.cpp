@@ -1,4 +1,4 @@
-﻿#include "Mau/States/Gameplay/Substates/QuitPromptState.h"
+#include "Mau/States/Gameplay/Substates/QuitPromptState.h"
 #include "Mau/States/MainMenu/MainMenuState.h"
 
 namespace Mau

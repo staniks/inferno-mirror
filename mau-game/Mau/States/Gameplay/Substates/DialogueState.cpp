@@ -1,4 +1,4 @@
-﻿#include "Mau/States/Gameplay/Substates/DialogueState.h"
+#include "Mau/States/Gameplay/Substates/DialogueState.h"
 
 namespace Mau
 {

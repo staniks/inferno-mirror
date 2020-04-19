@@ -1,4 +1,4 @@
-﻿#include <iterator>
+#include <iterator>
 #include <sstream>
 
 #include "DialogueRepository.h"
