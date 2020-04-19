@@ -1,10 +1,11 @@
-﻿#ifndef MAU_TEXTURE_H
+#ifndef MAU_TEXTURE_H
 #define MAU_TEXTURE_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT
 #pragma once
 #endif
 
+#include <string>
 #include <memory>
 #include <SDL.h>
 
