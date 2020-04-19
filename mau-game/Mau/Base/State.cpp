@@ -1,4 +1,4 @@
-﻿#include "Mau/Base/State.h"
+#include "Mau/Base/State.h"
 
 namespace Mau
 {

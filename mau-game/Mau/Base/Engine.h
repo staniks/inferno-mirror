@@ -1,4 +1,4 @@
-﻿#ifndef MAU_ENGINE_H
+#ifndef MAU_ENGINE_H
 #define MAU_ENGINE_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT

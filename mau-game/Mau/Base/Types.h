@@ -1,4 +1,4 @@
-﻿#ifndef MAU_TYPES_H
+#ifndef MAU_TYPES_H
 #define MAU_TYPES_H
 
 #ifdef _PRAGMA_ONCE_SUPPORT
